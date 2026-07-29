@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semarak Kemerdekaan RI Ke-81</title>
+    <title>Semarak Kemerdekaan RI 79</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         /* CSS Terpadu - Tema Merah Gelap (Dark Red) */
         :root {
-            --primary: #990000;         /* Merah Gelap */
-            --primary-dark: #4a0000;    /* Merah Sangat Gelap */
-            --secondary: #fcf5f5;       /* Latar belakang putih dengan sedikit sentuhan merah */
-            --accent: #ff3333;          /* Merah terang untuk aksen/sorotan */
-            --dark: #2d0000;            /* Teks dominan warna merah super gelap (hampir hitam) */
+            --primary: #990000;         
+            --primary-dark: #4a0000;    
+            --secondary: #fcf5f5;       
+            --accent: #ff3333;          
+            --dark: #2d0000;            
             --gradient-bg: linear-gradient(135deg, #7a0000 0%, #3a0000 100%);
             --gradient-card: linear-gradient(145deg, #ffffff, #fff0f0);
             --shadow: 0 10px 20px rgba(122, 0, 0, 0.1);
@@ -56,7 +56,7 @@
             font-weight: 700;
             background: var(--gradient-bg);
             -webkit-background-clip: text;
-            background-clip: text; /* Tambahkan baris ini untuk standar kompatibilitas */
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -156,7 +156,7 @@
         .jadwal-item .tanggal {
             font-size: 1.6rem;
             font-weight: 700;
-            color: #ffb3b3; /* Merah muda terang agar kontras */
+            color: #ffb3b3; 
         }
 
         .jadwal-item .keterangan {
@@ -249,7 +249,7 @@
             border-radius: 20px;
             padding: 25px;
             width: calc(33.333% - 20px);
-            min-width: 280px;
+            min-width: 250px;
             box-shadow: var(--shadow);
             transition: transform 0.3s;
             position: relative;
@@ -259,7 +259,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            min-height: 150px;
+            min-height: 120px;
             border: 1px solid rgba(153, 0, 0, 0.1);
         }
 
@@ -279,7 +279,7 @@
         }
 
         .lomba-card h3 {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             margin-bottom: 10px;
             color: var(--primary-dark);
         }
@@ -291,6 +291,10 @@
             border-radius: 20px;
             font-size: 0.8rem;
             font-weight: 600;
+        }
+        
+        .badge-kelompok {
+            background: #1D3557;
         }
 
         /* Panitia Section */
@@ -466,7 +470,6 @@
                 font-size: 1rem;
             }
 
-            /* Penyesuaian Jadwal Box untuk Layar HP */
             .jadwal-box {
                 flex-direction: column;
                 gap: 15px;
@@ -516,7 +519,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>Semarak Lomba 17-an</h1>
-        <p>Mari rayakan hari kemerdekaan ke-81 dengan penuh semangat juang, kekompakan, dan sportivitas tanpa batas!</p>
+        <p>Mari rayakan hari kemerdekaan ke-79 dengan penuh semangat juang, kekompakan, dan sportivitas tanpa batas!</p>
         
         <!-- Informasi Jadwal -->
         <div class="jadwal-box">
@@ -546,43 +549,69 @@
     <section id="lomba" class="section-container" style="background: rgba(255,255,255,0.7); border-radius: 30px; box-shadow: 0 10px 30px rgba(122,0,0,0.05);">
         <h2 class="section-title">Kategori Perlombaan</h2>
         
-        <!-- Kategori Anak-anak -->
+        <!-- Kategori Anak-anak Perorangan -->
         <div class="category-wrapper">
-            <h3 class="category-title">Kategori Anak-anak</h3>
+            <h3 class="category-title">👦👧 Lomba Anak-anak (Perorangan)</h3>
             <div class="flex-container">
                 <div class="lomba-card">
                     <h3>Makan Kerupuk</h3>
                 </div>
                 <div class="lomba-card">
+                    <h3>Tusuk Botol</h3>
+                </div>
+                <div class="lomba-card">
                     <h3>Balap Kelereng</h3>
                 </div>
                 <div class="lomba-card">
-                    <h3>Memasukkan Paku ke Botol</h3>
+                    <h3>Kepit Balon (Sambil Jalan)</h3>
                 </div>
                 <div class="lomba-card">
-                    <h3>Jepit Balon</h3>
-                </div>
-                <div class="lomba-card">
-                    <h3>Lomba Menggambar</h3>
+                    <h3>Mewarnai</h3>
                 </div>
             </div>
         </div>
 
-        <!-- Kategori Ibu-ibu -->
+        <!-- Kategori Bapak-bapak & Ibu-ibu Perorangan -->
         <div class="category-wrapper" style="margin-top: 50px;">
-            <h3 class="category-title">Kategori Ibu-ibu</h3>
+            <h3 class="category-title">👨👩 Lomba Bapak & Ibu (Perorangan)</h3>
             <div class="flex-container">
                 <div class="lomba-card">
-                    <h3>Estafet Terigu</h3>
-                    <span class="badge">Beregu</span>
+                    <h3>Makan Kerupuk</h3>
+                </div>
+                <div class="lomba-card">
+                    <h3>Kelereng</h3>
+                </div>
+                <div class="lomba-card">
+                    <h3>Fokus</h3>
+                </div>
+                <div class="lomba-card">
+                    <h3>Rebut Kursi</h3>
+                </div>
+                <div class="lomba-card">
+                    <h3>Kepit Balon</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kategori Ibu-ibu Berkelompok -->
+        <div class="category-wrapper" style="margin-top: 50px;">
+            <h3 class="category-title">👩‍👩‍👧‍👧 Lomba Ibu-ibu (Berkelompok)</h3>
+            <div class="flex-container">
+                <div class="lomba-card">
+                    <h3>Lomba Terigu</h3>
+                    <span class="badge badge-kelompok">1 Tim = 5 Orang</span>
                 </div>
                 <div class="lomba-card">
                     <h3>Estafet Sarung</h3>
-                    <span class="badge">Beregu</span>
+                    <span class="badge badge-kelompok">1 Tim = 5 Orang</span>
                 </div>
                 <div class="lomba-card">
-                    <h3>Joget Balon</h3>
-                    <span class="badge">Berpasangan</span>
+                    <h3>Pesan Berantai</h3>
+                    <span class="badge badge-kelompok">1 Tim = 5 Orang</span>
+                </div>
+                <div class="lomba-card">
+                    <h3>Lari Balon</h3>
+                    <span class="badge badge-kelompok">1 Tim = 5 Orang</span>
                 </div>
             </div>
         </div>
@@ -616,8 +645,10 @@
             <div class="seksi-card">
                 <h3>Seksi Acara & Lomba</h3>
                 <ul>
-                    <li>Ekhy</li>
+                    <li>Ila</li>
                     <li>Ayi</li>
+                    <li>Risna</li>
+                    <li>Ekhy</li>
                 </ul>
             </div>
             <div class="seksi-card">
@@ -627,6 +658,7 @@
                     <li>Nafsan</li>
                     <li>Dede</li>
                     <li>Rizal</li>
+                    <li>Radit</li>
                 </ul>
             </div>
             <div class="seksi-card">
@@ -634,6 +666,7 @@
                 <ul>
                     <li>Fael</li>
                     <li>Marvel</li>
+                    <li>Syatir</li>
                 </ul>
             </div>
         </div>
@@ -645,3 +678,4 @@
     </footer>
 
 </body>
+</html>
